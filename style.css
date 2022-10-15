@@ -1,0 +1,811 @@
+.main {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    background-image: none;
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    /* list-style-type: none; */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: black;
+    background-color: rgb(61, 16, 16);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: flex;
+    color: red;
+    justify-content: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+h1 {
+    text-align: center;
+
+}
+
+
+
+.container {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+ul img {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    left: 0%;
+    /* justify-content: right; */
+    /* margin: auto; */
+
+}
+
+.container {
+
+    /* display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    right: 10px;
+    margin: auto; */
+
+}
+
+.Services {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: xx-large;
+  
+    
+}
+
+.paragraph {
+    display: flex;
+    color: green;
+    left: 10%;
+
+
+
+}
+
+.column {
+     display: flex;
+    justify-content: center;
+    flex-direction: column; 
+
+
+}
+
+.column1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+
+/* .third>h1,
+p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: red;
+} */
+
+.block {
+    display: block;
+    color: red;
+
+}
+
+.portfolio {
+    display: flex;
+    font-size: large;
+    flex-direction: column;
+
+
+}
+
+.port_section {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 14px;
+
+}
+
+.port {
+    color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 8px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 100%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+
+.div>.img1 {
+    background-color: silver;
+
+
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    margin: auto;
+
+}
+
+.p1,
+.img1,
+.t1 {
+    background-color: silver;
+}
+
+.paragraph1 {
+    color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 8px;
+    height: 200px;
+    margin: auto;
+}
+
+.team1 {
+    display: flex;
+    justify-content: left;
+
+}
+
+.p1 {
+    display: flex;
+    justify-content: left;
+}
+
+.p2 {
+    display: flex;
+    justify-content: left;
+}
+
+.block1 {
+    color: red;
+    display: block;
+
+}
+
+.row3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.row4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+body {
+    margin: 0px;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.main img {
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.float_handle {
+    width: 100%;
+    display: table;
+    margin-top: 15px;
+}
+
+.float_left {
+    float: left;
+}
+
+.width_50p {
+    width: 50%;
+}
+
+.width_100p {
+    width: 100%;
+}
+
+.width_30p {
+    width: 30%;
+}
+
+.width_70p {
+    width: 70%;
+}
+
+.width_62p {
+    width: 62%;
+}
+
+.service_sec {
+    padding: 50px 0px 0px 0px;
+}
+
+.service_sec .container {
+    display: block;
+}
+
+.service_sec h2 {
+    position: relative;
+}
+
+.service_sec h2::after {
+    content: '';
+    position: absolute;
+    bottom: -16px;
+    left: 0px;
+    width: 150px;
+    height: 3px;
+    background: #ddd;
+}
+
+.service_sec h2::before {
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 0px;
+    width: 125px;
+    height: 3px;
+    background: #ddd;
+}
+
+.service_sec h3 {
+    margin-top: 0px;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.width_50p1 {
+    width: 80%;
+    height: 25vh;
+
+}
+
+
+
+
+/* ----------------------------------portfolio Section=-------------------------------------------------------------------------------------- */
+.portfolio {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 4px;
+
+}
+
+.float_left1 {
+    float: left;
+}
+
+.width_510 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+}
+
+.width_50p1 {
+    width: 80%;
+    height: 25vh;
+    margin-left: 10px;
+}
+
+/* Section 2 images of portfolio */
+
+
+.float_left2 {
+    float: left;
+
+}
+
+.width_5100 {
+    /* display: flex;
+    flex-direction: row; */
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+}
+
+.width_50p12 {
+    display: flex;
+    justify-items: center;
+    width: 80%;
+    height: 25vh;
+    margin-left: 10px;
+}
+
+
+
+/* Section 3 img of portfolio */
+
+.float_left3 {
+    width: 70%;
+    margin: auto;
+}
+
+
+
+.float_left3 {
+    float: left;
+
+}
+
+.width_50p3 {
+    width: 70%;
+    display: table;
+    margin-top: 0px;
+}
+
+.width_50p3 {
+    width: 100%;
+}
+
+.float_leftt {
+    display: flex;
+    justify-content: right;
+    margin-left: 500px;
+
+}
+
+/* -------------------------------------------Testmonial section ------------------------------------------------------------------------------- */
+
+.test_section {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.width_501p {
+    display: flex;
+    justify-content: right;
+
+
+}
+
+.width_50pp {
+
+    width: 60%;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+
+}
+
+.width_30pp {
+    display: flex;
+    flex-direction: row;
+}
+
+.width_50pic {
+    width: 40%;
+    height: 10vh;
+    margin-top: 50%;
+}
+
+.width_50px {
+
+    width: 100%;
+    height: 50vh;
+    margin-top: 5%;
+    margin-left: 30%;
+
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+/* .our_Team{
+    display: 'flex';
+    flex-direction: column;
+} */
+.test_section {
+    display: flex;
+    margin: auto;
+    width: 70%;
+
+
+}
+
+.Team1 {
+    margin: auto;
+    display: flex;
+    width: 70%;
+
+
+}
+
+.temp1 {
+    display: flex;
+    width: 100%;
+    margin: 8px;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.width_51011 {
+    /* margin: 20px; */
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 20vh;
+}
+
+.width_50pxx {
+
+    width: 100%;
+    height: 20vh;
+    /* margin-top: 5%;*/
+    margin-left: 30%;
+}
+
+.cnt {
+    display: flex;
+    max-width: 100%;
+    height: 20%;
+    margin: 4px;
+    flex-direction: row;
+
+}
+
+.team_sec {
+    padding-bottom: 30px;
+}
+
+.parent_img {
+    display: flex;
+}
+
+.child_area {
+    width: 25%;
+    margin-right: 30px;
+}
+
+.child_area img {
+    width: 100%;
+}
+
+.child_area h3 {
+    text-align: center;
+}
+
+.desic_area {
+    position: relative;
+}
+
+.desic_area p {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.desic_area div {
+    position: absolute;
+    bottom: -15px;
+    right: 0px;
+    display: flex;
+}
+
+.desic_area div p {
+    border: none;
+    padding: 2px 7px;
+    background: green;
+    color: #fff;
+    border-right: 1px solid #ddd;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+
+.main_parenet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+    margin-right: 20%;
+
+}
+
+.parent_sectionTop {
+    border-width: 1px solid;
+    margin-left: 14%;
+    margin-top: 1%;
+
+
+
+
+}
+.price_segment{
+    background-color:whitesmoke;
+   padding: 2%;
+}
+/* .bestPrice{
+    background-color: red;
+} */
+.price_card {
+    width: 300px;
+    display: flex;
+    /* background-color: gray; */
+    justify-content: center;
+    flex-direction: column;
+    left: 50%;
+    margin-left: 10%;
+    border: 1px solid;
+    
+}
+
+.price_card_item {
+    padding-vertical: 5rem; background-color: darkgrey;
+}
+.grid_box{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.childd {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: lightgrey;
+    width: 200px;
+    height: 40vh;
+    border: 4px solid green;
+    padding: 30px;
+    padding-top: 0;
+    margin: 4px;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+    border-radius: 20px;
+}
+
+.childd>p {
+    
+    border-bottom: #111;
+    border-style:solid;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+}
+
+.paragraph11>p {
+    
+    border-bottom: #111;
+    border-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+   
+}
+/* -----------------------------------------------------------------------------------bar------------------------------------------- */
+.w3-light-grey{
+    margin: 2%;
+} 
+.w3-green{
+background-color:#0edf92;
+    /* width: 30px;*/
+    height: 4vh;  
+}
+.w3-red
+{
+    background-color: lightgreen;
+    /* width: 80%;*/
+    height: 4vh; 
+}
+.w3-blue{
+    background-color: #0edf92;
+     /* width: 80%; */
+    height: 4vh;    
+}
+.w3-red{
+    background-color: #0edf92;
+    /* width: 80%;*/
+    height: 4vh;  
+}
+.w3-container{
+   
+   display: flex;
+   flex-direction: column;
+   width: 35%;
+   height: 4vh;
+   margin: 7%;
+   margin-left: 20%;
+   color: white;
+   
+   
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+img {
+    width: 60%;
+    /* display: flex;
+    justify-content: center; align-items: center; */
+    max-width: 100%;
+    height: auto;
+}
+.imagerow{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+
+    justify-content: center; */
+
+
+}
+input[type="text"] {
+    display: block;
+    margin : 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+.childd2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: lightgrey;
+    width: 200px;
+    height: 40vh;
+    /* border: 4px solid green; */
+    padding: 10px;
+    margin: 4px;
+    margin-top: 4px;
+    margin-left: 50px;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+    border-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+
+}
+
+/* .cip
+{
+    color: red;
+    border-style: solid;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+} */
+
+.mnm {
+    border-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom: #111;
+}
+
+.ttt {
+    color: red;
+    border-bottom: #111;
+    border-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+}
+
+.bbb {
+    color: aqua;
+    border-bottom: #111;
+    border-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+.Address_section{
+display: flex;
+flex-direction: row    ;
+align-items: center;
+justify-content:space-evenly;
+color: #0edf92;
+}
