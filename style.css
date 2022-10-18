@@ -291,10 +291,12 @@ body {
 
 .width_70p {
     width: 70%;
+    margin: 10%;
 }
 
 .width_62p {
     width: 62%;
+
 }
 
 .service_sec {
@@ -361,13 +363,15 @@ body {
 .width_510 {
     display: flex;
     flex-direction: row;
-    margin-bottom: 8px;
+    margin-bottom: 2%;
+   
 }
 
 .width_50p1 {
     width: 80%;
     height: 25vh;
     margin-left: 10px;
+    
 }
 
 /* Section 2 images of portfolio */
@@ -392,6 +396,7 @@ body {
     width: 80%;
     height: 25vh;
     margin-left: 10px;
+    margin-bottom: 4%;
 }
 
 
@@ -423,7 +428,8 @@ body {
 .float_leftt {
     display: flex;
     justify-content: right;
-    margin-left: 500px;
+    margin-bottom: 20%;
+    margin-left: 400px;
 
 }
 
@@ -445,9 +451,11 @@ body {
 
 .width_50pp {
 
-    width: 60%;
+    width: 100%;
+    height: 15vh;
     display: flex;
-    margin: auto;
+    margin: 50%;
+    padding: 50%;
     flex-direction: row;
 
 }
@@ -455,6 +463,7 @@ body {
 .width_30pp {
     display: flex;
     flex-direction: row;
+    
 }
 
 .width_50pic {
@@ -605,11 +614,12 @@ body {
 .price_card {
     width: 300px;
     display: flex;
+   
     /* background-color: gray; */
     justify-content: center;
     flex-direction: column;
     left: 50%;
-    margin-left: 10%;
+    margin-left: 5%;
     border: 1px solid;
     
 }
@@ -703,7 +713,7 @@ background-color:#0edf92;
 /* --------------------------------------------------------------------------------------------------------- */
 
 img {
-    width: 60%;
+    width: 30%;
     /* display: flex;
     justify-content: center; align-items: center; */
     max-width: 100%;
@@ -799,13 +809,109 @@ input[type="text"] {
     border-top-style: none;
 }
 
-/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------last secton------------------------------------------------------------------------------ */
 
 
-.Address_section{
-display: flex;
-flex-direction: row    ;
-align-items: center;
-justify-content:space-evenly;
-color: #0edf92;
+.c_parent{
+    display: flex;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
+.contact_grand{
+    display: flex;
+    margin: 1%;
+    padding: 1%;
+    margin-left: 10%;
+   
+}
+.parent_address{
+    width: 70%;
+    margin: auto;
+}
+.contact_detail{
+    display: flex;
+        justify-content: center;
+        margin: 30px;
+}
+.message{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    
+   
+   
+}
+.inputfeild{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.containersubmit { 
+    height: 200px;
+    position: relative;
+    /* background-color: black;
+    color: white; */
+}
+  
+  .centersubmit {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  input[type="text"]::placeholder {  
+    text-align: center;  
+   }  
+   footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+  }
+  .container12{
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .container12 button{
+    background: green;
+    border: 1px solid green;
+    padding: 15px 30px;
+    color: #fff;
+  }
+
+  .sendbtn{
+    text-align: center;
+    padding-bottom: 30px;
+   
+
+  }
+  .sendbtn
+    button{
+        background: rgb(130, 240, 130);
+        border: 1px solid green;
+        /* padding: 15px 30px; */
+
+        color: #fff;
+       
+      }
+    
+  
+
+  div.c {
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    -ms-transform: scaleY(1.5); /* IE 9 */
+    transform: scaleY(1.5);
+  }
+
+
+  /* h1 {
+    background-color:rgb(187, 220, 136) ; 
+  }
+   */
